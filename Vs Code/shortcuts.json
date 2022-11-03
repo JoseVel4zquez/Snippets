@@ -1,0 +1,31 @@
+{
+  "Email-Scheduled": {
+    "prefix": "Email-Scheduled",
+    "body": ["<!--", "Hi ${1:@}", "the email has been scheduled for delivery, let me know if you need anything else!", "Platform: Virtuous", "Email name: $2", "General settings: $3", "Query: $4", "Individuals: $5", "Date/Time: $6 hrs", "Overview: $7", "-->"],
+    "description": "Task Email Scheduled Comment"
+  },
+  "Email-Completed": {
+    "prefix": "Email-Completed",
+    "body": ["<!--", "Hi ${1:@}", "The task is ready for your review", "Platform: ${2:(mailchip or other platform)}", "Campaign Name: $3", "Subject: $4", "EOA: $5", "Test in: test@digizent.com", "Date/Time: $6 hrs", "-->"],
+    "description": "Task Email Completed Comment"
+  },
+  "Email-Bg-VML": {
+    "prefix": "Email-Bg-VML",
+    "body": [
+      "<tr>",
+      "\t<td class=\"${1:mobile-image}\" align=\"center\"  background=\"${2:images/blue-background.jpg}\" width=\"${3:600}\" height=\"${4:375}\" valign=\"${5:top}\" style=\"background-repeat: no-repeat; background-position: ${6:top};\">",
+      "\t\t<!--[if gte mso 9]>",
+      "\t\t\t<v:rect xmlns:v=\"urn:schemas-microsoft-com:vml\" fill=\"true\" stroke=\"false\" style=\"width:${3:600}px;height:${4:375}px;\">",
+      "\t\t\t<v:fill type=\"tile\" src=\"${2:images/blue-background.jpg}\" color=\"#17244e\" />",
+      "\t\t\t<v:textbox inset=\"0,0,0,0\">",
+      "\t\t<![endif]-->",
+      "\t\t<table>$7</table>",
+      "\t\t<!--[if gte mso 9]>",
+      "\t\t\t</v:textbox>",
+      "\t\t\t</v:rect>",
+      "\t\t<![endif]-->",
+      "\t</td>",
+      "</tr>"
+    ]
+  }
+}

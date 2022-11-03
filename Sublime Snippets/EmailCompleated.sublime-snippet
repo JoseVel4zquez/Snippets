@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<!--
+Hi $1
+
+The task is ready for your review 
+
+Platform: $2 
+Campaign Name: $3
+Subject: $4
+EOA: $5
+Test in: test@digizent.com
+Date/Time: $6 hrs
+-->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>Email-Compleated</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css,text.html(.basic),text.html.jsp,source.js,source.php</scope>
+</snippet>

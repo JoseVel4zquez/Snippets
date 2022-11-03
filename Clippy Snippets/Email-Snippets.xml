@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>Email Snippets</title>
+		<snippets>
+			<snippet>
+				<title>Email Finish</title>
+				<content>Hi @
+
+The task is ready for your review 
+
+Platform: MailChimp or other plataform 
+Campaign Name:
+Subject:
+EOA:
+Test in: test@digizent.com
+Date/Time:       hrs</content>
+			</snippet>
+			<snippet>
+				<title>Email Scheduled</title>
+				<content>Hi @  
+
+the email has been scheduled for delivery, let me know if you need anything else!
+
+Platform: Virtuous
+Email name:
+General settings:  
+Query:
+Individuals:
+Date/Time:
+Overview:</content>
+			</snippet>
+			<snippet>
+				<title>Email-VML</title>
+				<content>&lt;tr&gt;
+	&lt;td class=&quot;mobile-image&quot; align=&quot;center&quot; class=&quot;bg-gradient&quot; background=&quot;images/blue-background.jpg&quot; width=&quot;700&quot; height=&quot;2530&quot; valign=&quot;top&quot; style=&quot;background-repeat: no-repeat; background-position: bottom;&quot;&gt;
+	  &lt;!--[if gte mso 9]&gt;
+	  &lt;v:rect xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; fill=&quot;true&quot; stroke=&quot;false&quot; style=&quot;width:700px;height:2530px;&quot;&gt;
+	  &lt;v:fill type=&quot;tile&quot; src=&quot;images/blue-background.jpg&quot; color=&quot;#17244e&quot; /&gt;
+	  &lt;v:textbox inset=&quot;0,0,0,0&quot;&gt;
+	  &lt;![endif]--&gt;
+	    &lt;table&gt;&lt;/table&gt;
+	  &lt;!--[if gte mso 9]&gt;
+	  &lt;/v:textbox&gt;
+	  &lt;/v:rect&gt;
+	  &lt;![endif]--&gt;
+	&lt;/td&gt;
+&lt;/tr&gt;</content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>
